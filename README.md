@@ -1,0 +1,1 @@
+# vs-application-catalog-project
