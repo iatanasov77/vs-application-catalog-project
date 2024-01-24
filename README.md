@@ -6,7 +6,7 @@ Create Project
 ```bash
 $ wget http://getcomposer.org/composer.phar
 $ php composer.phar create-project vankosoft/application-catalog-project VankosoftApplicationCatalog
-$ cd VankosoftApplicationExtended
+$ cd VankosoftApplicationCatalog
 ```
 Edit .env file to setup your Aplication Database Name and your host url If You Want.
 
