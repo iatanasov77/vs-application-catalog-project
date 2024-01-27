@@ -1,7 +1,4 @@
-vs_payment:
-    # Supported Storages: doctrine_orm, filesystem
-    token_storage: doctrine_orm
-    
+vs_catalog:
     resources:
         product:
             classes:
@@ -21,3 +18,14 @@ vs_payment:
         pricing_plan_subscription:
             classes:
                 model: App\Entity\Catalog\PricingPlanSubscription
+        association_type:
+            classes:
+                model: App\Entity\Catalog\AssociationType
+        product_association:
+            classes:
+                model: App\Entity\Catalog\ProductAssociation
+#         service_association:
+#             classes:
+#                 model: App\Entity\Catalog\ServiceAssociation
+
+

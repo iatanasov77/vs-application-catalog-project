@@ -31,8 +31,10 @@
         
         "vankosoft/application": "1.10.*",
         "vankosoft/catalog-bundle": "^0.1",
+        
         "trickeyone/intl-subdivision": "^4.0",
-        "php-http/message-factory": "^1.1"
+        "php-http/message-factory": "^1.1",
+        "symfony/http-client": "^6.2"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5",
