@@ -55,6 +55,17 @@ vs_application:
          
     menu:
         mainSystemMenu:
+            dashboard:
+                name: vs_application.menu.dashboard
+                uri: "javascript:;"
+                attributes:
+                    iconClass: icon_genius
+                    breadcrumb_route: vs_application_dashboard
+                childs:
+                    locales:
+                        name: vs_application.menu.dashboard
+                        route: vs_application_dashboard
+            
             settings:
                 name: vs_application.menu.settings
                 uri: "javascript:;"
@@ -468,7 +479,7 @@ vs_application:
                         display: false
                     pricing_plan_subscriptions:
                         name: vs_application.menu.pricing_plan_subscriptions
-                        route: vs_payment_pricing_plan_subscriptions_index
+                        route: vs_catalog_pricing_plan_subscriptions_index
                         
             developement:
                 name: vs_application.menu.developement
@@ -544,7 +555,7 @@ vs_application:
                         route: vs_catalog_pricing_plan_create
                     pricing_plan_update:
                         name: vs_application.menu.edit_pricing_plan
-                        route: vvs_catalog_pricing_plan_update
+                        route: vs_catalog_pricing_plan_update
                         routeParameters:
                           id: int
                         display: false
