@@ -1,3 +1,10 @@
+0.2.1	|	Release date: **05.02.2024**
+============================================
+* New Features:
+  - Many Additions and Improvements.
+  - Update BootstrapShopTheme .
+
+
 0.2.0	|	Release date: **01.02.2024**
 ============================================
 * New Features and Improvements:
