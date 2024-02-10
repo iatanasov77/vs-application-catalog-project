@@ -1,3 +1,9 @@
+1.0.0	|	Release date: **10.02.2024**
+============================================
+* New Features:
+  - Add Resource and Entity ProductFile .
+
+
 0.2.1	|	Release date: **05.02.2024**
 ============================================
 * New Features:
