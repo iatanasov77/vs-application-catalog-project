@@ -668,6 +668,26 @@ vs_application:
                         routeParameters:
                           id: int
                         display: false
+                        
+            associations:
+                name: vs_application.menu.associations
+                uri: "javascript:;"
+                attributes:
+                    iconClass: icon_genius
+                    breadcrumb_route: vs_catalog_association_type_index
+                childs:
+                    association_type_index:
+                        name: vs_application.menu.association_types
+                        route: vs_catalog_association_type_index
+                    association_type_create:
+                        name: vs_application.menu.create_association_type
+                        route: vs_catalog_association_type_create
+                    association_type_update:
+                        name: vs_application.menu.edit_association_type
+                        route: vs_catalog_association_type_update
+                        routeParameters:
+                          id: int
+                        display: false
         
         profileMenu:
             contact:
