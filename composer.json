@@ -30,7 +30,7 @@
         "symfony/runtime": "6.2.*",
         
         "vankosoft/application": "1.10.*",
-        "vankosoft/catalog-bundle": "^1.0",
+        "vankosoft/catalog-bundle": "^1.2",
         
         "trickeyone/intl-subdivision": "^4.0",
         "php-http/message-factory": "^1.1",
@@ -78,6 +78,7 @@
     "scripts": {
         "auto-scripts": {
             "cache:clear": "symfony-cmd",
+            "assets:install %PUBLIC_DIR%/admin-panel": "symfony-cmd",
             "liip:imagine:cache:remove": "symfony-cmd"
         },
         "post-install-cmd": [
