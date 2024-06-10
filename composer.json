@@ -1,7 +1,16 @@
 {
     "name": "vankosoft/application-catalog-project",
     "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "homepage": "http://vankosoft.org",
     "description": "Vankosoft Catalog Project",
+    "authors": [
+        {
+            "name": "Ivan I. Atanasov"
+        }
+    ],
     "keywords": [
         "symfony",
         "vankosoft",
@@ -12,40 +21,32 @@
         "pricing-plans",
         "shopping-cart"
     ],
-    "homepage": "http://vankosoft.org",
-    "license": "proprietary",
-    "authors": [
-        {
-            "name": "Ivan I. Atanasov"
-        }
-    ],
     "require": {
         "php": "^8.1",
         "ext-ctype": "*",
         "ext-iconv": "*",
         
-        "symfony/dotenv": "6.2.*",
+        "symfony/dotenv": "6.4.*",
         "symfony/flex": "^1.17|^2",
-        "symfony/notifier": "6.2.*",
-        "symfony/runtime": "6.2.*",
+        "symfony/notifier": "6.4.*",
+        "symfony/runtime": "6.4.*",
+        "symfony/http-client": "6.4.*",
         
         "vankosoft/application": "1.10.*",
-        "vankosoft/catalog-bundle": "^1.2",
+        "vankosoft/catalog-bundle": "^1.3",
         
-        "trickeyone/intl-subdivision": "^4.0",
-        "php-http/message-factory": "^1.1",
-        "symfony/http-client": "^6.2"
+        "trickeyone/intl-subdivision": "^4.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5",
-        "symfony/browser-kit": "6.2.*",
-        "symfony/css-selector": "6.2.*",
-        "symfony/debug-bundle": "6.2.*",
+        "symfony/browser-kit": "6.4.*",
+        "symfony/css-selector": "6.4.*",
+        "symfony/debug-bundle": "6.4.*",
         "symfony/maker-bundle": "^1.0",
-        "symfony/phpunit-bridge": "6.2.*",
-        "symfony/stopwatch": "6.2.*",
-        "symfony/var-dumper": "6.2.*",
-        "symfony/web-profiler-bundle": "6.2.*"
+        "symfony/phpunit-bridge": "^7.0",
+        "symfony/stopwatch": "6.4.*",
+        "symfony/var-dumper": "6.4.*",
+        "symfony/web-profiler-bundle": "6.4.*"
     },
     "config": {
         "optimize-autoloader": true,
@@ -94,7 +95,7 @@
     "extra": {
         "symfony": {
             "allow-contrib": false,
-            "require": "6.2.*"
+            "require": "6.4.*"
         }
     }
 }
