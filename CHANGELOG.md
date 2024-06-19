@@ -1,3 +1,12 @@
+1.1.1	|	Release date: **19.06.2024**
+============================================
+* New Features and Improvements:
+  - Update AdminPanel Configs.
+  - Update Doctrine Extensions Config.
+  - Remove Unneeded Configs.
+  - Remove VankoSoft API ENV Variables.
+
+
 1.1.0	|	Release date: **11.05.2024**
 ============================================
 * New Features:
