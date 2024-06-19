@@ -14,8 +14,6 @@ use Vankosoft\PaymentBundle\Model\Traits\CustomerEntity;
 use Vankosoft\CatalogBundle\Model\Interfaces\UserSubscriptionAwareInterface;
 use Vankosoft\CatalogBundle\Model\Traits\UserSubscriptionAwareEntity;
 
-use Vankosoft\CatalogBundle\Model\Interfaces\CommenterInterface;
-use Vankosoft\CatalogBundle\Model\Traits\CommenterEntity;
 use Vankosoft\CatalogBundle\Model\Interfaces\ReviewerAwareInterface;
 use Vankosoft\CatalogBundle\Model\Interfaces\ReviewerInterface;
 use Vankosoft\CatalogBundle\Model\Reviewer;
@@ -27,21 +25,18 @@ class User extends BaseUser implements
     UserPaymentAwareInterface,
     CustomerInterface,
     UserSubscriptionAwareInterface,
-    CommenterInterface,
     ReviewerAwareInterface
 {
     use SubscribedUserEntity;
     use UserPaymentAwareEntity;
     use CustomerEntity;
     use UserSubscriptionAwareEntity;
-    use CommenterEntity;
     
     public function __construct()
     {
         $this->newsletterSubscriptions  = new ArrayCollection();
         $this->orders                   = new ArrayCollection();
         $this->pricingPlanSubscriptions = new ArrayCollection();
-        $this->comments                 = new ArrayCollection();
         
         parent::__construct();
     }
