@@ -1,3 +1,9 @@
+1.1.5	|	Release date: **19.06.2024**
+============================================
+* New Features:
+  - Add Application Locales Widget.
+
+
 1.1.4	|	Release date: **19.06.2024**
 ============================================
 * Bug-Fixes:
