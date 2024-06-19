@@ -15,10 +15,10 @@ use Vankosoft\CatalogBundle\Model\Interfaces\UserSubscriptionAwareInterface;
 use Vankosoft\CatalogBundle\Model\Traits\UserSubscriptionAwareEntity;
 
 use Vankosoft\CatalogBundle\Model\Interfaces\CommenterInterface;
+use Vankosoft\CatalogBundle\Model\Traits\CommenterEntity;
 use Vankosoft\CatalogBundle\Model\Interfaces\ReviewerAwareInterface;
 use Vankosoft\CatalogBundle\Model\Interfaces\ReviewerInterface;
 use Vankosoft\CatalogBundle\Model\Reviewer;
-
 
 #[ORM\Entity]
 #[ORM\Table(name: "VSUM_Users")]
@@ -34,12 +34,14 @@ class User extends BaseUser implements
     use UserPaymentAwareEntity;
     use CustomerEntity;
     use UserSubscriptionAwareEntity;
+    use CommenterEntity;
     
     public function __construct()
     {
         $this->newsletterSubscriptions  = new ArrayCollection();
         $this->orders                   = new ArrayCollection();
         $this->pricingPlanSubscriptions = new ArrayCollection();
+        $this->comments                 = new ArrayCollection();
         
         parent::__construct();
     }
