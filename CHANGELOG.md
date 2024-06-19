@@ -1,3 +1,9 @@
+1.1.2	|	Release date: **19.06.2024**
+============================================
+* New Features:
+  - Make All Entities to Use Attributes.
+
+
 1.1.1	|	Release date: **19.06.2024**
 ============================================
 * New Features and Improvements:

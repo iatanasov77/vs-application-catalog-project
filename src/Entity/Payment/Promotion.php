@@ -3,11 +3,8 @@
 use Doctrine\ORM\Mapping as ORM;
 use Vankosoft\PaymentBundle\Model\Promotion as BasePromotion;
 
-/**
- * @ORM\Table(name="VSPAY_Promotions")
- * @ORM\Entity
- */
+#[ORM\Entity]
+#[ORM\Table(name: "VSPAY_Promotions")]
 class Promotion extends BasePromotion
 {
-    
 }
