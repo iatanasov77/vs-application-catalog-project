@@ -31,9 +31,10 @@ class RegistrationForm extends UserFormType
         RepositoryInterface $localesRepository,
         RequestStack $requestStack,
         string $applicationClass,
-        AuthorizationCheckerInterface $auth
+        AuthorizationCheckerInterface $auth,
+        array $requiredFields
     ) {
-        parent::__construct( $dataClass, $localesRepository, $requestStack, $applicationClass, $auth );
+        parent::__construct( $dataClass, $localesRepository, $requestStack, $applicationClass, $auth, $requiredFields );
     }
     
     public function buildForm( FormBuilderInterface $builder, array $options ): void
@@ -123,6 +124,7 @@ class RegistrationForm extends UserFormType
                 'titleMapped'           => false,
                 'firstNameMapped'       => false,
                 'lastNameMapped'        => false,
+                'designationMapped'     => false,
             ])
             ->setDefined([
                 'users',
