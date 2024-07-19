@@ -1,3 +1,11 @@
+1.1.6	|	Release date: **19.07.2024**
+============================================
+* Bug-Fixes and Improvements:
+  - Fix RegistrationForm.
+  - Iprove LIIP Imagine Config.
+  - Translate Contact Form Placeholders.
+
+
 1.1.5	|	Release date: **19.06.2024**
 ============================================
 * New Features:
