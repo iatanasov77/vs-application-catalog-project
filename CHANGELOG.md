@@ -1,3 +1,10 @@
+1.2.0	|	Release date: **22.07.2024**
+============================================
+* Bug-Fixes and Improvements:
+  - Add a Missing Config.
+  - Change Routes Config Annotations with Attributes.
+
+
 1.1.6	|	Release date: **19.07.2024**
 ============================================
 * Bug-Fixes and Improvements:
