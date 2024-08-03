@@ -38,7 +38,6 @@ return [
     
     winzou\Bundle\StateMachineBundle\winzouStateMachineBundle::class => ['all' => true],
     JMS\SerializerBundle\JMSSerializerBundle::class => ['all' => true],
-    
     Bazinga\Bundle\HateoasBundle\BazingaHateoasBundle::class => ['all' => true],
     
     Vankosoft\AgentBundle\VSAgentBundle::class => ['all' => true],
@@ -53,8 +52,6 @@ return [
     
     Oneup\UploaderBundle\OneupUploaderBundle::class => ['all' => true],
     Oneup\FlysystemBundle\OneupFlysystemBundle::class => ['all' => true],
-    
-    Symfony\UX\TogglePassword\TogglePasswordBundle::class => ['all' => true],
     
     Payum\Bundle\PayumBundle\PayumBundle::class => ['all' => true],
     Vankosoft\UsersSubscriptionsBundle\VSUsersSubscriptionsBundle::class => ['all' => true],
