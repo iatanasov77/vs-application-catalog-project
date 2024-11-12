@@ -1,3 +1,9 @@
+1.11.1	|	Release date: **12.11.2024**
+============================================
+* New Features:
+  - Update Composer Requirements.
+
+
 1.11.0	|	Release date: **12.11.2024**
 ============================================
 * New Features, Fixes and Improvements:
